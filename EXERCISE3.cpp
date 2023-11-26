@@ -48,6 +48,8 @@ int acrxEntryPoint(AcRx::AppMsgCode Msg, void* pkt) {
 		break;
 	case AcRx::kUnloadAppMsg:
 		acutPrintf(_T("\n Command Unloaded"));
+		// Command Groups to remove
+		acedRegCmds->removeGroup(_T("MyGroup"));
 		break;
 	}
 	return AcRx::kRetOK;
