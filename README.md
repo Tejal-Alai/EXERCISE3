@@ -6,6 +6,8 @@
 4.Add function declaration of function which create new command
 5.Add function defination of entry point function to .cpp file 
          -- here i have registered a command
+         -- also removed command group
+         -- and tested global and local commands
 6. Add function defination of MyCommand function to .cpp file
           -- in my command function i used callback function to start when the MyCommand is used.
 7.Build project
